@@ -118,6 +118,11 @@ used to gauge the performance of the model on the test_set for age estimation. T
 $ python age_triplet_mse_run.py
 ```
 
+## 4 Google Colab demo
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yFEaJvfrgrI45VyhM15-vmYTduyBqP4W?usp=sharing)
+
+
 ## Other instructions:
 
 - You may change the hyper-parameters such as the `batch_size`, `max_epochs`, `early_stopping_patience`, `learning_rate`, `num_layers`, `loss_criterion`, etc. in the run.py file of any model.

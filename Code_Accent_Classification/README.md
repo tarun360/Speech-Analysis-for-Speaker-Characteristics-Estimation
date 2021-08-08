@@ -75,6 +75,10 @@ $ python run.py
 (You may change the model to be used in the `run.py`. If you do not make any changes, `BiLSTM + Cross Attention + Focal Loss Model` shall run by default).
 
 
+5. Google Colab demo
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wB4y3CACGpKi_-S1IBsCHdQ1UeUnqu_U?usp=sharing)
+
 ## For Further Details:
 
 For gaining further insight of our work, you may refer the following report compiled by us on this topic:
