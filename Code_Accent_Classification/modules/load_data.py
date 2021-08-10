@@ -56,7 +56,6 @@ def data_gen_train():
               
 def data_gen_test():
   
-  os.chdir('../../')
   print('FOR TEST DIR..............')
   root_dir_test = 'Accent_Data/test/'
   #print(os.getcwd())
@@ -148,7 +147,9 @@ def data_gen_val():
                 elif key.split('-')[1] == 'RUSSIAN':
                     label = np.array([0., 0., 0., 0., 0., 0., 0., 1.])
                 
-                yield numpy_array, label      
+                yield numpy_array, label  
+
+    os.chdir('../../')    
 
 
 
